@@ -313,7 +313,7 @@ class Model(nn.Module):
                                         stride=1,
                                         padding=1)
 
-
+#该注释仅仅用于远程共享时的测试
 #不懂context是什么
     def forward(self, x, t=None, context=None):
         #assert x.shape[2] == x.shape[3] == self.resolution
